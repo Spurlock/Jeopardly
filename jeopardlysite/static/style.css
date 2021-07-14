@@ -1,0 +1,100 @@
+html, body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size:16px;
+  background:#161616;
+  color:#fff;
+}
+
+h1 {
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:500;
+  margin-bottom:10px;
+  margin-top:20px;
+  color:#fc0;
+}
+
+h4 {
+  margin-top:10px;
+  text-align:center;
+  font-weight:400;
+}
+
+p.status {
+  text-align: center;
+}
+
+.game-board {
+  display:flex;
+  margin:10px auto;
+  max-width:1400px;
+}
+
+.col {
+  flex:1
+}
+
+.category-title, .clue {
+  border:1px solid black;
+  height:100px;
+  overflow:auto;
+  padding:10px;
+  margin:5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:#210FB7;
+  border-radius:10px;
+}
+
+.category-title {
+  text-transform: uppercase;
+  user-select: none;
+  color:#F1B783;
+  font-size:24px;
+  font-weight:500;
+  margin-bottom:10px;
+}
+
+.clue {
+  border:1px solid black;
+  cursor:pointer;
+  user-select: none;
+}
+
+.clue:hover {
+  background:#313FC7;
+}
+
+.clue.done {
+  background:#333;
+  cursor:default;
+}
+
+.clue.done:hover {
+  background:auto;
+}
+
+.clue.number {
+  font-size:32px;
+}
+
+.buttons {
+  text-align:center;
+}
+
+button {
+  border:1px solid #1044AA;
+  background: #00349A;
+  color:#fff;
+  padding:5px 15px;
+  border-radius:5px;
+  font-weight:500;
+  cursor:pointer;
+  font-size:20px;
+}
+
+button:hover {
+  background:#1044AA;
+}
